@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/oneplus/enchilada
+LOCAL_PATH := device/blackshark/shark
 
 # Getting this to build in my local omni tree proved quite difficult so just using a prebuilt update_engine_sideload for now.
 # Oddly enough, OnePlus stock recovery does not include an update_engine_sideload binary either.
