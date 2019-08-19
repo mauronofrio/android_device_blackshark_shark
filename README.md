@@ -1,6 +1,6 @@
-# Device Tree for Xiaomi Black Shark
-
 ## Compile
+
+This TWRP should be built under omni-8.1 but it will work on pie only.
 
 First checkout minimal twrp with omnirom tree:
 
@@ -31,7 +31,7 @@ Finally execute these:
 ```
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
-lunch omni_enchilada-eng 
+lunch omni_shark-eng 
 mka adbd recoveryimage 
 ```
 
@@ -40,4 +40,5 @@ To test it:
 ```
 fastboot boot out/target/product/shark/recovery.img
 ```
-
+## Thanks
+```
